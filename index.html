@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Simple weight converter">
+  <title>Harold Catipay</title>
+
+  <link rel="stylesheet" href="app.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+  <!-- Open Graph-->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bolaji-wc.netlify.com/">
+  <meta property="og:title" content="Weight Converter">
+  <meta property="og:image" content="img/favicon.png">
+  <meta property="og:description" content="Simple weight converter">
+  <meta property="og:site_name" content="Weight Converter">
+  <!-- Next tags are optional but recommended -->
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter cards-->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@iambolajiayo">
+  <meta name="twitter:creator" content="iambolajiayo">
+  <meta name="twitter:url" content="https://bolaji-wc.netlify.com/">
+  <meta name="twitter:title" content="Weight Converter">
+  <meta name="twitter:description" content="Simple weight converter">
+  <meta name="twitter:image" content="img/favicon.png">
+
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#333" />
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; height: 100vh; background-color: rgb(34, 34, 34);">
+        <div style="justify-content: center; align-items: center; display: flex; flex-direction: column; height: 100vh;">
+            <h2 style="text-align: center; font-weight: bold;">WELCOME TO POKEMON CHARACTER PICKER</h2>
+            <div style="margin:5% 2%; height: max-content; width: 50%; border: 1px solid white; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background-color: rgba(150, 150, 150, 30%); border-radius: 10px;">
+            <input type="number" id="inputChar" placeholder="Enter Character ID: " style="margin: 5% 1%; text-align: center; max-width: 40%;">
+            <button onclick="enter()" style="margin-bottom: 3%; padding: 5% 10%; border: none; background-color: rgb(46, 134, 46); color: white; font-weight: 900; border-radius: 3px;">Enter</button>
+            <p id="pokemonName" style="color: white;"></p>
+            <img src="" alt="pokemoncharacter" id="character" style="display: none; width: 20%;">
+            </div>
+            </div>
+           </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
